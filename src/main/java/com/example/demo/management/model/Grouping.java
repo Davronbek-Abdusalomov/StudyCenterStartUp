@@ -8,7 +8,7 @@ import java.util.List;
 
 @Data
 @Entity
-public class Group {
+public class Grouping {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

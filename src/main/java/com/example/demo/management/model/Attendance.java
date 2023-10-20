@@ -17,6 +17,5 @@ public class Attendance {
     private Boolean isPresent;
 
     @ManyToOne
-    private Group group_id;
-
+    private Grouping group_id;
 }
